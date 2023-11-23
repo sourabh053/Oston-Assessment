@@ -1,0 +1,40 @@
+.login{
+    background: #EFEFEF;
+}
+.login>div{
+    width: 750px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+}
+.login>div>div:first-child{
+    width: 60%;
+    height: 100%;
+    padding: 65px 0;
+}
+.login>div>div:last-child{
+    width: 37%;
+    height: 100%;
+    padding: 25px 0;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.login h1{
+    font-size: 20px;
+    margin: 0;
+}
+.login ul{
+    padding-left: 0;
+    list-style:none;
+}
+.login li{
+    font-size: 10px;
+    margin-top: 20px;
+    background-image: url(./circle.svg);
+    background-repeat: no-repeat;
+    background-size: 3%;
+    background-position: 0 2px;
+    padding-left: 20px;
+    height: 20px;
+}

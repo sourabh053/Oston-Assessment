@@ -1,0 +1,57 @@
+.test>div{
+    width: 750px;
+    height: 270px;
+    margin: 0 auto;
+    display: flex;
+}
+.test>div>div:first-child{
+    width: 60%;
+    height: 100%;
+    padding: 25px 0;
+}
+.test>div>div:last-child{
+    width: 40%;
+    height: 100%;
+    padding: 25px 0;
+}
+.test>div>div:last-child img{
+    height: 100%;
+}
+.test h1{
+    font-size: 20px;
+    margin: 0;
+}
+.test p{
+    font-size: 9px;
+}
+.test button{
+    display: flex;
+    width: 185px;
+    height: 28px;
+    padding: 10px 19.61px 12px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    border-bottom: 2px solid #F35427;
+    background: #ff693d;
+    color: white;
+    font-size: 10px;
+    margin: 20px 0 10px 0;
+}
+.insidediv{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.insidediv img{
+    width: 40px;
+}
+.outsidediv{
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+}
+.insidediv div:first-child{
+    width: 35px;
+}

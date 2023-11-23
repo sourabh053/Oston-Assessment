@@ -1,0 +1,17 @@
+.results{
+    height: 350px;
+    background-color: #201c1c;
+}
+.results>div{
+    width: 750px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.results h2{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.results img{
+    width: 90%;
+}

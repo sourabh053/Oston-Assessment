@@ -1,0 +1,75 @@
+.banner {
+  width: 934px;
+  height: 240px;
+  border-radius: 16px;
+  background: #ff693d;
+  margin: 0 auto;
+  padding: 30px 50px 0px 80px;
+  display: flex;
+}
+.bannerpart1 {
+  display: flex;
+  height: 100%;
+}
+.bannerpart1 div:first-child {
+  width: 60%;
+}
+.bannerpart1 img {
+  width: 90%;
+}
+.bannerpart1 button img {
+  width: 12%;
+}
+.bannerpart1 button {
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  font-size: 10px;
+  width: 45%;
+  height: 31px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.bannerpart1>div img:nth-child(2){
+  width: 50%;
+  margin-top: 20px;
+}
+.btnCont {
+  display: flex;
+  margin-top: 25px;
+  width: 100%;
+  justify-content: space-between;
+}
+.btnCont button:first-child{
+  background: #01202B;
+  color: #ffffffc4;
+}
+.btnCont button:last-child{
+  color: #ff693d;
+}
+.imageCont {
+  width: 40%;
+}
+.imageCont img {
+  height: 100%;
+}
+.bannerpart2 img {
+  width: 100%;
+}
+.bannerpart2 {
+  height: 100%;
+  width: 55%;
+}
+.bannerpart2 p {
+  margin-top: 10px;
+  font-size: 9px;
+  color: #ffffffc4;
+}
+.bannerpart2 div {
+  background: black;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  border-radius: 10px;
+  width: 85%;
+}

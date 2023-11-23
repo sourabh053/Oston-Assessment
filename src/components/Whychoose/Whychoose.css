@@ -1,0 +1,71 @@
+.whychoose {
+  height: 160vh;
+  min-height: 940px;
+  background-color: #fff0e9;
+}
+.whychoose > div {
+  width: 750px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.whychoose > div > div:first-child {
+  font-size: 10px;
+}
+.whychoose > div > div:nth-child(2) {
+  width: 100%;
+  height: 165px;
+  border-radius: 10px;
+  background: #ff693d;
+  display: flex;
+}
+.whychoose > div > div:nth-child(2) > div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.brochure {
+  width: 100%;
+  height: 100%;
+}
+.whychoose button {
+  background: #01202b;
+  color: #ffffffc4;
+  display: flex;
+  width: 40%;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  align-items: center;
+}
+.whychoose button img {
+  width: 10%;
+  height: 15px;
+  margin-left: 10px;
+}
+.whychoose button p {
+  width: 80%;
+}
+.whychoose h2 {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+.whychoose p {
+  font-size: 10px;
+  color: #ffffffc4;
+}
+hr {
+  border: none;
+  border-top: 1.5px dotted #ff693d;
+  width: 100%;
+}
+.afterdotted h1{
+  font-size: 25px;
+  margin-bottom: 3px;
+}
+.afterdotted h1:nth-child(2){
+  margin: 0;
+}

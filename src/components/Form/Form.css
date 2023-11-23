@@ -1,0 +1,48 @@
+.form {
+  text-align: center;
+  position: relative;
+}
+.form h3 {
+  font-size: 11px;
+  margin: 0;
+}
+.form input {
+  border-radius: 8px;
+  border: 1px solid #dee0e1;
+  background: #fff;
+  margin: 5px auto;
+  width: 87%;
+  height: 33px;
+  padding: 10px;
+  font-size: 10px;
+}
+.form select {
+  border-radius: 8px;
+  border: 1px solid #dee0e1;
+  background: #efefef;
+  width: 87%;
+  height: 33px;
+  padding: 8px 10px;
+  font-size: 10px;
+  margin: 5px 0;
+  color: black;
+}
+::placeholder {
+    color: #A0AEC0;
+  }
+  #submit{
+    background: #FF693D;
+    color: #fff;
+  }
+  .form button{
+    position: absolute;
+    right: 9%;
+    bottom: 67%;
+    font-size: 10px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #FF693D;
+    color: #FF693D;
+    padding: 0;
+    opacity: 50%;
+  }

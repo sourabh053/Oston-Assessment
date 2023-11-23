@@ -1,0 +1,26 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 10px 0;
+}
+.grid-item {
+  width: 100%;
+  height: 165px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  column-gap: 5px;
+}
+.grid-container p {
+  color: #5f747d;
+}
+.grid-container h3 {
+  font-size: 14px;
+  margin: 0;
+}
+.headingthree {
+  margin: 35px 0 10px 0;
+  border: 1px solod black;
+}

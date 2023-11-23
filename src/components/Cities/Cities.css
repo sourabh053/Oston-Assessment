@@ -1,0 +1,46 @@
+.cities {
+  width: 934px;
+  height: 290px;
+  margin: 0 auto;
+}
+.cities div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cities div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.cities div:last-child img {
+  width: 80%;
+  margin-left: 75px;
+}
+.cities h2 {
+  margin-left: 14%;
+}
+.cities p {
+  margin-right: 5%;
+  font-size: 10px;
+  color: #ff693d;
+}
+.cities p img {
+  width: 8px;
+}
+.cities button {
+  display: flex;
+  width: 150px;
+  height: 38px;
+  font-size: 10px;
+  font-weight: bolder;
+  padding: 10px 19.61px 12px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  border-bottom: 2px solid #F35427;
+  background: #ff693d;
+  color: white;
+}
